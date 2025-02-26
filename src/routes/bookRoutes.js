@@ -9,7 +9,7 @@ const {
 
 const router = express.Router();
 
-// Define routes
+
 router.post("/", insertBook);
 router.get("/", getAllBooks);
 router.get("/author/:author", getBooksByAuthor);
